@@ -1,0 +1,31 @@
+/* QUIZ SCORE: 5/5
+What is the correct format for declaring a function in Javascript?
+function foo(){...}
+
+  function add(arr){
+    sum = 0;
+    for(var i = 0; i < arr.length; i++){
+      sum = sum + arr[i];
+    }
+    return sum;
+  }
+Based on the code above, what will executing add([1,2,3,4,5]) return?
+15
+
+  function foo(x){
+    console.log(x + " Bloc!");
+  }
+Based on the code above, what will executing foo('Hello') output?
+'Hello Bloc!'
+
+  function sub(n1, n2){
+    console.log(n1 - n2);
+  }
+Based on the code above, what will executing sub(10, 20) output?
+-10
+
+function isAString(x){
+    console.log(typeof x == 'string');
+  }
+Based on the code above, what will executing isAString('Hello') output?
+true
