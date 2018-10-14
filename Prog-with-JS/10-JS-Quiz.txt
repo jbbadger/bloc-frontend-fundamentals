@@ -1,0 +1,52 @@
+QUIZ SCORE: 10/10
+  var i = 1;
+  while(i < 0){
+    console.log("Hello World");
+    i++;
+  }
+Based on the code above, how many times will 'Hello World' be printed to the screen?
+0
+
+What is the correct format for starting a for loop in Javascript
+for(var i=0; i < 100; i++){...}
+
+What will this line of Javascript evaluate to: '1' === 1?
+true
+
+What will this line of Javascript evaluate to: '1' == 1?
+true
+
+How many times will a for loop with the following code run: for(var i=0; i<10; i++){...}
+10 times
+
+What is the correct format for an if statement in Javascript?
+if(foo < 10){...}
+
+What built in Javascript function will pop up a box that allows the user to enter information?
+prompt()
+
+What will this line of Javascript evaluate to: typeof "Foo"?
+string
+
+  for(var i = 0; i < 10; i++){
+    if(i % 2 === 0){
+      console.log("Hello");
+    } else if(i % 3 === 0) {
+      console.log("World");
+    } else if(i % 2 === 0 && i % 3 === 0) {
+      console.log("Hello World");
+    } else {
+      console.log(i);
+    }
+  }
+Using the code above, how many times will the exact phrase "Hello World" be printed to the console?
+0 times
+
+var x = 'outside';
+function logToConsole() {
+  console.log(x);
+  var x = 'inside';
+}
+logToConsole();
+What will the code above output?
+undefined
