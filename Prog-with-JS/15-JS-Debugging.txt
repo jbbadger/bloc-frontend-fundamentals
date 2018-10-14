@@ -1,0 +1,38 @@
+Debugging
+
+Open your browser. Open up Chrome DevTools.
+Click on the Network tab on DevTools.
+Go to your bloc dashboard page.
+What Request Urls is Bloc using to get your information from the API?
+bloc.io/api/v1/users/jay-...essions?limit=3
+
+Where can I find the cookies being used on the webpage using the Chrome DevTools?
+Under Network tab there is a nested Cookies tab which displays all the cookies.
+
+Where can you execute JavaScript in the DevTools?
+Under the Console tab.
+
+How can you modify existing CSS on your webpage using the DevTools?
+Under the Elements tab and Styles sub-tab, you can change CSS styles.
+
+What happens to the code you have altered through the DevTools
+when you refresh the page?
+When refreshed the page is returned as the original.
+
+What are the different ways you can add breakpoints
+to your JavaScript for debugging?
+
+Line-of-code
+On an exact region of code.
+Conditional line-of-code
+On an exact region of code, but only when some other condition is true.
+DOM
+On the code that changes or removes a specific DOM node, or its children.
+XHR
+When an XHR URL contains a string pattern.
+Event listener
+On the code that runs after an event, such as click, is fired.
+Exception
+On the line of code that is throwing a caught or uncaught exception.
+Function
+Whenever a specific function is called.
