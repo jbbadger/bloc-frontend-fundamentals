@@ -1,0 +1,37 @@
+QUIZ SCORE: 11/12
+What is the correct way to create a hyperlink with the clickable text "Take me to Bloc" that links to http://www.bloc.io?
+<a href='http://www.bloc.io'>Take me to Bloc</a>  correct
+
+Which of these tags would create a list of bullet points (NOT numbers)?
+<ul>  correct
+
+HTML stands for:
+Hyper Text Markup Language  correct
+
+On the same page, how many HTML tags should have the same id attribute?
+1  correct
+
+On the same page, how many HTML tags should have the same class attribute?
+as many as needed  correct
+
+The CSS selector to select the first <li> in every list on the page is:
+li:first-child  correct
+
+What is the hexadecimal representation of the color black?
+#000000  correct
+
+The proper way to create a hyperlink inside a paragraph is:
+<p><a href='http://www.google.com'>Google</a></p>  correct
+
+Which of these header tags will display the largest font by default?
+<h1>  correct
+
+The CSS selector to select any element with a class attribute of 'foo' is:
+.foo  correct
+
+When an HTML tag is nested inside another tag, it is called a __ of the parent tag:
+child  correct
+
+What is wrong with the code below?
+<h1><div></h1></div>
+The tags are out of order. They should be <div><h1></h1></div>  correct
