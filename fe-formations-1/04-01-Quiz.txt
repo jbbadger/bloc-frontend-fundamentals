@@ -1,0 +1,21 @@
+QUIZ SCORE: 5/5
+
+What is the purpose of the <!DOCTYPE html> tag in all HTML5 pages?
+
+To tell the browser this is an HTML5 document
+
+How are HTML tags structured?
+
+With opening and closing carrots i.e. <tagname>
+
+How do you add an attribute to an HTML tag?
+
+Like this: <tagname attributeName = 'value'>
+
+Which HTML tag would be used to create an ordered (numbered list)?
+
+<ol>
+
+Which HTML tag is used to link an external CSS sheet to a webpage?
+
+<link>
