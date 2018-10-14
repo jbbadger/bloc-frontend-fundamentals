@@ -1,0 +1,73 @@
+<!--
+Layout
+
+List the three different ways to create layouts for a site.
+ Box model, flex box model, and grid model.
+
+List the steps one could use to alter a website's CSS in the Chrome Developer
+Tools.
+Right click page and select inspect. Select an element in the central box and
+update CSS box to see preview of changes.
+
+Code
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dual Column Restaurant Site</title>
+</head>
+<body>
+  <div id='banner'>
+    <h1>Bloc Chocolate</h1></div>
+  <div id='left-col' class='column'>
+    <p>Home Contact About</p>
+  </div>
+  <div id='right-col' class='column'>
+    <h2 id='h2'>Our Menu</h2>
+    <table>
+      <thead class='tdata'>
+        <th>Food</th>
+        <th>Description</th>
+        <th>Price</th>
+      </thead>
+      <tbody class='tdata'>
+        <td>salad</td>
+        <td>Who doesn't love salad?</td>
+        <td>$7.99</td>
+      </tbody>
+    </table>
+      </div>
+</body>
+</html>
+
+<!--
+
+CSS
+
+#banner {
+  text-align: center;
+  color: brown;
+}
+
+#h2 {
+    text-align: center;
+}
+
+#left-col {
+  float: left;
+  background: pink;
+  height: 400px;
+  width: 80px;
+  color: blue;
+  padding: 10px;
+}
+
+#right-col {
+  background: white;
+  height: 400px;
+  width: 400px;
+}
+-->
