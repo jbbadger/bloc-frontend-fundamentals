@@ -1,0 +1,56 @@
+<!--
+Accessibility
+
+Why is accessibility so important?
+People read and utilize websites in all different manners.
+It’s important for people have as equal as possible access plus
+it is good for SEO.
+
+What are some forms of accessibility as it relates to web
+development?
+Alt attributes with images, contrasting for readability, minimal
+need for fine motor skills, and semantic HTML usage.
+
+In your own words, what does semantic mean?
+Semantics are how people interpret language or words.
+
+What is semantic HTML?
+Semantic HTML is using elements that properly reflect the content.
+
+What are some common accessibility issues your end users might
+have? What are some steps you would take to make their experience
+on your site better?
+Common issues may be blindness, color-blindness, tremors, or
+deafness. Steps to remedy are semantic HTML, contrast, appropriate
+button size, and avoiding use of tables for layout structure.
+
+What do we use the <label> tag for?
+The label tag describes input elements and will activate the
+control when the text is pressed or hovered over.
+
+Code
+-->
+
+<!Doctype html><!-- added doctype -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cats are the best!</title>
+  </head>
+  <body><!-- deleted table used for page structure -->
+        <aside><!-- Put sidebar in aside tag -->
+          <p>Sidebar will go here<p></aside>
+        <section><!-- Put main text in section tag -->
+          <h1>My awesome site</h1><!-- changed to h1 tag for semantic html -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>
+            Check out this cat:</p><!-- added paragraph tag for better flow -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg" alt='cat' height='500'>
+            <!-- Added alt attribute to image and resized for easier viewing -->
+            <!-- Deleted line breaks used for styling -->
+          <p>
+          <h2>Isn't it a great cat?!?</h2><!-- changed to h2 tag for semantic html -->
+          </p>
+    </section>
+  </body>
+</html>
