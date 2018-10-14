@@ -1,0 +1,107 @@
+<!--
+HTML Forms
+
+What is a good use of the <form> tag, and what are its available
+methods?
+The form tag tells the browser where a form begins and ends.
+Forms should include an action url where the data is submitted
+along with a GET or POST method.
+
+List and explain at least three different <input> types.
+Inputs utilized within a form can include checkboxes,
+radio buttons, submit buttons, passwords, or text.
+Checkboxes give the user the option to select boxes
+with associated text. Submit buttons allow the user to
+submit data to the action URL. Text boxes allow the user
+to freehand any pertinent notes.
+
+Code
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Site</title
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href='/index.html'>Home</a></li>
+            <li>
+              <a href='/about.html'>About</a></li>
+            <li>
+              <a href='/contact.html'>Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <aside>
+        <p>Sidebar</p>
+        <p>Sidebar 2</p>
+      </aside>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Welcome, here's our menu:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Salad</td>
+              <td>Fresh, delicious Cobb Salad</td>
+              <td>$7.99</td>
+            </tr>
+            <tr>
+              <td>Burger</td>
+              <td>1/4 lb grass-fed burger with choice of cheese</td>
+              <td>$6.99</td>
+            </tr>
+            <tr>
+              <td>Chicken Salad Sandwich</td>
+              <td>Our world famous chicken salad on a bagel with homemade pickles</td>
+              <td>$8.99</td>
+            </tr>
+            <tr>
+              <td>Buffalo Chicken Sandwich</td>
+              <td>Spicy fried chikcen on a brioche bun</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td>Fries</td>
+              <td>Hand cut potatoes lightly fried and seasoned</td>
+              <td>$1.99</td>
+            </tr>
+            <tr>
+              <td>Soda</td>
+              <td>Regular, diet, orange, or root beer</td>
+              <td>$1.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <form action="form.php" method="post">
+         <fieldset>
+           <legend>Reservation Form</legend>
+          <input type='text' id='name'>
+           <label for='name'>First Name</label>
+           <input type='text' id='surname'>
+           <label for='surname'>Last Name</label>
+           <input type='email' id='eaddress'>
+           <label for='eaddress'>Email</label>
+           <input type='tel' id='telephone'>
+           <label for='telephone'>Telephone</label>
+           <select name="type">Time
+  <option value="seven">7:00pm</option>
+  <option value="sevenhalf" selected>7:30pm</option>
+  <option value="eight">8:00pm</option>
+</select><span>Time</span>
+           <textarea cols="80" rows="6">Special Instructions
+           </textarea>
+           <input type="submit" value="Submit">
+          </fieldset>
+</form>
+      </section>
+      <footer>Thanks, come again</footer>
+    </body>
+    </html>
