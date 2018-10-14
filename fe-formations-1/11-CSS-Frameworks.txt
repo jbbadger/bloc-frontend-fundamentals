@@ -1,0 +1,30 @@
+CSS Framework
+
+List at least three sites you frequent that use each CSS framework: Bootstrap,
+Foundation, and Material Design. To find out which framework the website uses,
+Right Click and choose "View Source". For example, if you search for "bootstrap"
+in the source, you should be able to see if file /bootstrap.css is included. If
+the filename is different for any reason (rare and against best practices, but
+it does occur), search the source code for col-sm-6 or col-md-8, etc. These will
+tell you that it is indeed using Bootstrap.
+
+Bootstrap is used by the sfarts.org. Foundation is used by designforgoodbham.com.
+Material design framework is used by codepen.io.
+
+
+Read the official documentation and analyze the three leading CSS frameworks in
+this checkpoint. Why are some used in specific projects over others? What are
+the deciding factors? Is it aesthetics, development team, or a particular feature
+such as built-in animation or an advanced grid system?
+
+Bootstrap utilizes a mobile first strategy so if mobile utilization was of
+utmost importance Bootstrap would be a great choice. Foundation is also mobile
+focused but provides more options for customization such as animation and
+bleeding-edge flexgrid. The positives of Material Design include user
+familiarity, streamlined implementation, and fast performance.
+
+
+Why would you use a CSS framework?
+
+CSS frameworks save development time, create consistency, and enforce style
+guidelines.
