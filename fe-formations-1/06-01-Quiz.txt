@@ -1,0 +1,19 @@
+QUIZ SCORE: 3/3
+
+Which of the following tags is not a valid HTML form element?
+<textarea>
+<input>
+<tr> correct
+<select>
+
+Which of the following is a valid HTML table element?
+<td>  correct
+<ti>
+<tbl>
+<tab>
+
+What is the correct way to create a Submit button for a form?
+<submit>
+<button type='submit'>
+<input type='submit'>  correct
+<sub>
