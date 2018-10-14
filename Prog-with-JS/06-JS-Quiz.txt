@@ -1,0 +1,25 @@
+QUIZ SCORE: 8/8
+What would you use to find out how many characters are in the string 'Favorite Movie'?
+'Favorite Movie'.length  correct
+
+Which one of the following expressions will evaluate to true?
+'Great Wall of China' != 'great wall of china'  correct
+
+What would the following code output?
+console.log('There will be ' + (42/7) + ' more weeks of winter.');
+'There will be 6 more weeks of winter.'  correct
+
+Which of these is not a valid variable name in JavaScript
+favorite-food  correct
+
+Which of these correctly creates a new variable and assigns it a value of 'Monday'?
+var today = 'Monday';  correct
+
+Given the string 'Hello there!', what is the index of the letter t?
+6  correct
+
+What method would you use to get a specific character of a string based on its position?
+charAt()  correct
+
+Which of these is an example of correctly including a JavaScript file in your HTML?
+<script src="app.js"></script>  correct
