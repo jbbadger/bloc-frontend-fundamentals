@@ -1,0 +1,56 @@
+CSS Basics
+
+What is the difference between inline, internal, and external styling?
+Which will you most commonly use? Inline styles one specific element, internal
+styles a page, and external links to one or more pages to style.
+
+Why are ID selectors inhibiting?
+ID selectors inhibit because each element has a unique ID so the styling won’t
+be broadly applicable.
+
+Look at the HTML code below
+
+<div class="foo">
+  <!-- 1 -->
+  <p></p>
+   <!-- 2 -->
+  <p></p>
+  <div class="altfoo">
+    <!-- 3 -->
+    <p></p>
+  </div>
+</div>
+
+Is the <div> with class altfoo an immediate child of the <div> with foo?
+Why or why not?
+Altfoo is an immediate child of foo because there isn’t another element
+wrapping Altfoo.
+
+Referring to the HTML code from above, which element(s) will the following
+selector select?
+.foo p{} Paragraph elements 1, 2, and 3.
+
+Referring to the HTML code from above, which element(s) will the following
+selector select?
+.foo > p{} Paragraph elements 1 and 2.
+
+Look at the HTML code below. What pseudo-class selector would you write to
+select the first <p> element?
+(Only the first one!) p:first-child{}
+
+<div>
+  <p class="text">One</p>
+  <p class="text">Two</p>
+  <p class="text">Three</p>
+  <p class="text">Four</p>
+</div>
+
+Style.css
+
+h2 {color: fuchsia}
+
+#idselector {background-color: turquoise;}
+
+.selectorclass {opacity: 0.5;}
+
+div.selectorclass {border-style: solid;}
