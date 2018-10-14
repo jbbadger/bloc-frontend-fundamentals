@@ -1,0 +1,32 @@
+QUIZ SCORE: 10/10
+
+To set a font using CSS, the correct property is?
+font-family  correct
+
+To make every letter in a word CAPITALIZED, what CSS property/value pair would we use?
+text-transform: uppercase;  correct
+
+What is the correct way to place an image called logo.png that links to http://bloc.io in an HTML page?
+<a href='http://bloc.io'><img src='logo.png'></a>  correct
+
+Which of these is NOT an HTML attribute?
+link  correct
+
+Which of these tags is NOT a valid tag for a form?
+<textbox>  correct
+
+The correct way to embed an image in HTML is:
+<img src='logo.png'>  correct
+
+Which of these types is NOT a valid input type for the form input tag:
+<input type='name'>  correct
+
+A correct example of a self-closing HTML tag is:
+<img src='logo.png'>  correct
+
+The alt attribute on an image tag is used for:
+Describing an image in plain text in case the image couldn't load or was being
+viewed by a screen reader  correct
+
+To create a form in HTML, the proper tag is:
+<form>  correct
